@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Logger Local</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .container {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 40px;
+        max-width: 600px;
+        width: 90%;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #00ff88;
+      }
+      .log-entry {
+        background: rgba(0, 0, 0, 0.3);
+        border-left: 4px solid #00ff88;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 0 10px 10px 0;
+      }
+      .timestamp {
+        color: #888;
+        font-size: 12px;
+      }
+      .info-line {
+        margin: 5px 0;
+      }
+      .separator {
+        border-top: 1px solid #333;
+        margin: 15px 0;
+      }
+      #status {
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .online {
+        background: #00ff88;
+        color: #000;
+      }
+      .waiting {
+        background: #ffaa00;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📡 IP Logger Local</h1>
+      <div id="status" class="waiting">Esperando conexiones...</div>
+      <div id="logs"></div>
+    </div>
+
+    <script>
+      let logCount = 0
+
+      function saveLog(info) {
+        fetch('http://127.0.0.1:5000/save', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: 'info=' + encodeURIComponent(info),
+        })
+      }
+
+      async function loadLogs() {
+        try {
+          const res = await fetch('http://127.0.0.1:5000/logs')
+          const logs = await res.json()
+          displayLogs(logs)
+        } catch (e) {
+          console.log('Esperando servidor...')
+        }
+      }
+
+      function displayLogs(logs) {
+        const container = document.getElementById('logs')
+        const status = document.getElementById('status')
+
+        if (logs.length > 0) {
+          status.className = 'online'
+          status.textContent = `✓ ${logs.length} registro(s) guardado(s)`
+        }
+
+        container.innerHTML = logs
+          .map(
+            (log) => `
+                <div class="log-entry">
+                    <div class="timestamp">${log.timestamp}</div>
+                    ${log.info
+                      .split('\n')
+                      .map((line) =>
+                        line.startsWith('-')
+                          ? '<div class="separator"></div>'
+                          : `<div class="info-line">${line}</div>`
+                      )
+                      .join('')}
+                </div>
+            `
+          )
+          .join('')
+      }
+
+      setInterval(loadLogs, 2000)
+      loadLogs()
+    </script>
+  </body>
+</html>

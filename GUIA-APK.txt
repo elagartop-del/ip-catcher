@@ -1,0 +1,57 @@
+# IP Catcher - Generador de APK
+
+## Como generar el APK:
+
+### Opcion 1: GitHub Actions (Facil)
+
+1. **Crea cuenta en GitHub** si no tienes
+   - https://github.com
+
+2. **Instala GitHub CLI** (necesario para subir automaticamente)
+   - https://cli.github.com/manual/installation
+
+3. **Ejecuta el script**:
+   ```
+   SUBIR-GITHUB.bat
+   ```
+
+4. **Genera el APK**:
+   - Ve a tu repositorio en github.com
+   - Click en "Actions"
+   - Click en "Build APK"
+   - Click "Run workflow"
+   - Espera 5-10 minutos
+   - Descarga el APK del artifact
+
+### Opcion 2: Manual
+
+1. Crea repositorio en github.com
+2. Sube todos los archivos
+3. Ve a Actions > Build APK > Run workflow
+
+---
+
+## Archivos del proyecto:
+
+| Archivo | Descripcion |
+|---------|-------------|
+| android_catcher.py | App Android (Kivy) |
+| buildozer.spec | Configuracion de compilacion |
+| .github/workflows/build.yml | GitHub Actions |
+
+---
+
+## Para que funcione la app Android:
+
+Edita `android_catcher.py` y cambia la IP:
+
+```python
+requests.post("http://TU-IP-PUBLICA:5000/save", ...)
+```
+
+Porque el celular no puede acessar 127.0.0.1 de tu PC.
+
+Usa servicios como:
+- **ngrok** - crea tunnel a tu localhost
+- **PythonAnywhere** - hosting gratuito
+- Tu IP publica (necesita abrir puertos)

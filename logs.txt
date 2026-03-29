@@ -1,0 +1,11 @@
+2026-03-28 23:51:13
+Hostname: Manuel
+IP Local: 192.168.1.33
+IP Publica: 190.134.125.214
+Otras IPs: 2800:a4:244b:1600:7520:d04b:a0b:f51, fe80::29ed:17f7:6f80:16f4, fe80::2539:7e04:d03f:2b9c, 192.168.56.1, 192.168.1.33, fe80::3700:10bc:fe3a:fd1a, 10.5.0.2, 2800:a4:244b:1600:e4e5:7c7e:7cc6:1eae
+Sistema: Windows 11
+Usuario: sopic
+Fecha: 2026-03-28 23:51:12
+Mac Address: No disponible
+------------------------------
+---REGISTRO---

@@ -1,0 +1,299 @@
+Date/Time:       2026-03-29 01:36:17 
+Command line:    C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\__main__.py create android
+
+OS Release:      Windows 10
+OS Version:      10.0.26100
+Architecture:    AMD64
+Platform:        Windows-10-10.0.26100-SP0
+
+Python exe:      C:\Program Files\Python311\python.exe
+Python version:  3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.4.1
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	AGENT=1
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\sopic\AppData\Roaming
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=MANUEL
+	COMSPEC=C:\WINDOWS\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	EFC_11696_1592913036=1
+	EXEPATH=C:\Program Files\Git\bin
+	GOPATH=C:\Users\sopic\go
+	HOME=C:\Users\sopic
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\sopic
+	INTELLIJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.5\bin
+	LOCALAPPDATA=C:\Users\sopic\AppData\Local
+	LOGONSERVER=\\MANUEL
+	MSYSTEM=MINGW64
+	NO_PROXY=127.0.0.1,localhost,::1
+	NUMBER_OF_PROCESSORS=16
+	OLDPWD=C:/Users/sopic/Downloads/bloxono tool
+	ONEDRIVE=C:\Users\sopic\OneDrive
+	ONEDRIVECONSUMER=C:\Users\sopic\OneDrive
+	OPENCODE=1
+	OPENCODE_CLIENT=desktop
+	OPENCODE_EXPERIMENTAL_FILEWATCHER=true
+	OPENCODE_EXPERIMENTAL_ICON_DISCOVERY=true
+	OPENCODE_PID=40108
+	OPENCODE_SERVER_PASSWORD=********************
+	OPENCODE_SERVER_USERNAME=opencode
+	OS=Windows_NT
+	PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sopic\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\ffmpeg\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\ffmpeg\bin;C:\Users\sopic\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\sopic\AppData\Local\Programs\Python\Python313\;C:\Users\sopic\AppData\Local\Programs\Python\Python313;C:\Users\sopic\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\sopic\AppData\Local\Programs\Python\Launcher\;C:\Users\sopic\AppData\Local\Microsoft\WindowsApps;C:\Users\sopic\.cache\lm-studio\bin;C:\Users\sopic\AppData\Local\Microsoft\WindowsApps;C:\Users\sopic\AppData\Local\Programs\Microsoft VS Code\bin;C:\Use;C:\Program Files\playit_gg\bin\;C:\Users\sopic\AppData\Local\Programs\Python\Launcher\;C:\ffmpeg\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Users\sopic\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\sopic\AppData\Local\Programs\Python\Python313\;C:\Users\sopic\AppData\Local\Programs\Python\Python313;C:\Users\sopic\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\sopic\AppData\Local\Microsoft\WindowsApps;C:\Users\sopic\.cache\lm-studio\bin;C:\Users\sopic\AppData\Local\Microsoft\WindowsApps;C:\Users\sopic\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sopic\AppDa;C:\Users\sopic\AppData\Local\Programs\Antigravity\bin;C:\Users\sopic\AppData\Local\Programs\Ollama;C:\Users\sopic\.rokit\bin
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+	PLINK_PROTOCOL=ssh
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 167 Stepping 1, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=a701
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PWD=C:/Users/sopic/Downloads/bloxono tool/ipcatcher
+	SESSIONNAME=Console
+	SHLVL=1
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\WINDOWS
+	TEMP=C:\Users\sopic\AppData\Local\Temp
+	TERM=xterm-256color
+	TMP=C:\Users\sopic\AppData\Local\Temp
+	USERDOMAIN=MANUEL
+	USERDOMAIN_ROAMINGPROFILE=MANUEL
+	USERNAME=sopic
+	USERPROFILE=C:\Users\sopic
+	VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+	WINDIR=C:\WINDOWS
+	XDG_STATE_HOME=C:\Users\sopic\AppData\Local\ai.opencode.desktop\
+	_=C:/Program Files/Python311/python
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase~=0.4.1"]
+build-backend = "briefcase.integrations.macOS:XcodeFormBundle"
+
+[project]
+name = "ipcatcher"
+title = "IP Catcher"
+description = "IP Catcher App"
+version = "1.0"
+license = "MIT"
+
+[tool.briefcase]
+project_name = "IP Catcher"
+bundle = "com.tool"
+icon = "src/ipcatcher/resources/ipcatcher"
+
+[tool.briefcase.app.ipcatcher]
+formal_name = "IP Catcher"
+sources = ["src/ipcatcher"]
+requires = ["toga", "requests"]
+
+[tool.briefcase.app.ipcatcher.android]
+requires = ["toga-android"]
+
+Briefcase Log:
+[01:36:10]                                                                                                                                                             config.py:757
+           *************************************************************************                                                                                   config.py:757
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:757
+           *************************************************************************                                                                                   config.py:757
+                                                                                                                                                                       config.py:757
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:757
+                                                                                                                                                                       config.py:757
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:757
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:757
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:757
+               license is assigned to 'license.file'.                                                                                                                  config.py:757
+                                                                                                                                                                       config.py:757
+               The current configuration for the Project has a 'license' field                                                                                         config.py:757
+               that is specified as a string:                                                                                                                          config.py:757
+                                                                                                                                                                       config.py:757
+                   license = "MIT"                                                                                                                                     config.py:757
+                                                                                                                                                                       config.py:757
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:757
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:757
+                                                                                                                                                                       config.py:757
+                   license.file = "LICENSE"                                                                                                                            config.py:757
+                                                                                                                                                                       config.py:757
+           *************************************************************************                                                                                   config.py:757
+           Using JDK at C:\Users\sopic\AppData\Local\BeeWare\briefcase\Cache\tools\java17                                                                                java.py:263
+                                                                                                                                                                  android_sdk.py:362
+           [android_sdk] The Android SDK was not found; downloading and installing...                                                                             android_sdk.py:362
+           To use an existing Android SDK instance, specify its root directory path in the ANDROID_HOME environment variable.                                     android_sdk.py:366
+                                                                                                                                                                  android_sdk.py:370
+           Downloading commandlinetools-win-13114758_latest.zip...                                                                                                       file.py:227
+[01:36:14] Installing Android SDK Command-Line Tools 19.0... started                                                                                              android_sdk.py:421
+           Installing Android SDK Command-Line Tools 19.0... done                                                                                                 android_sdk.py:421
+           Removing older Android SDK packages... started                                                                                                         android_sdk.py:460
+           Removing older Android SDK packages... done                                                                                                            android_sdk.py:460
+                                                                                                                                                                  android_sdk.py:601
+           The Android tools provided by Google have license terms that you must accept                                                                           android_sdk.py:601
+           before you may use those tools.                                                                                                                        android_sdk.py:601
+                                                                                                                                                                   subprocess.py:839
+           >>> Running Command:                                                                                                                                    subprocess.py:839
+           >>>     'C:\Users\sopic\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\cmdline-tools\19.0\bin\sdkmanager.bat' --licenses                       subprocess.py:839
+           >>> Working Directory:                                                                                                                                  subprocess.py:839
+           >>>     C:\Users\sopic\Downloads\bloxono tool\ipcatcher                                                                                                 subprocess.py:839
+           >>> Environment Overrides:                                                                                                                              subprocess.py:839
+           >>>     ANDROID_HOME=C:\Users\sopic\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                             subprocess.py:839
+           >>>     ANDROID_SDK_ROOT=C:\Users\sopic\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                         subprocess.py:839
+           >>>     JAVA_HOME=C:\Users\sopic\AppData\Local\BeeWare\briefcase\Cache\tools\java17                                                                     subprocess.py:839
+[01:36:17] >>> Return code: 0                                                                                                                                      subprocess.py:839
+                                                                                                                                                                   subprocess.py:839
+                                                                                                                                                                      __main__.py:42
+           You did not accept the Android SDK licenses. Please re-run the briefcase command                                                                           __main__.py:43
+           and accept the Android SDK license when prompted. You may need an Internet                                                                                 __main__.py:43
+           connection.                                                                                                                                                __main__.py:43
+           Saving log... started                                                                                                                                      console.py:443
+
+Main thread traceback:
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\__main__.py:27 in main                                                                                   │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ > 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │       command = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000285A3518A50>                                                                        │ │
+│ │       console = <briefcase.console.Console object at 0x000002859F285550>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('You did not accept the Android SDK licenses. Please re-run the briefcase command\nand accept the Android SDK license when prompted.   │ │
+│ │                 You may need an Internet\nconnection.\n')                                                                                                                    │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │       options = {}                                                                                                                                                           │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\commands\create.py:1031 in __call__                                                                      │
+│                                                                                                                                                                                  │
+│   1028 │   │                                                                                                                                                                     │
+│   1029 │   │   # Confirm host compatibility, that all required tools are available,                                                                                              │
+│   1030 │   │   # and finalize configurations for the apps that will be created.                                                                                                  │
+│ > 1031 │   │   self.finalize(apps=apps_to_create.values())                                                                                                                       │
+│   1032 │   │                                                                                                                                                                     │
+│   1033 │   │   state = None                                                                                                                                                      │
+│   1034 │   │   for _, app_obj in sorted(apps_to_create.items()):                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────── locals ────────────────────────────────────────────────┐                                                                       │
+│ │            app = None                                                                                  │                                                                       │
+│ │       app_name = None                                                                                  │                                                                       │
+│ │ apps_to_create = {'ipcatcher': <com.tool.ipcatcher v1.0 AppConfig>}                                    │                                                                       │
+│ │        options = {}                                                                                    │                                                                       │
+│ │           self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000285A3518A50> │                                                                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                       │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\commands\base.py:740 in finalize                                                                         │
+│                                                                                                                                                                                  │
+│    737 │   │   :param debugger_port: The port to use for the debugger                                                                                                            │
+│    738 │   │   """                                                                                                                                                               │
+│    739 │   │   self.verify_host()                                                                                                                                                │
+│ >  740 │   │   self.verify_tools()                                                                                                                                               │
+│    741 │   │                                                                                                                                                                     │
+│    742 │   │   for app in apps:                                                                                                                                                  │
+│    743 │   │   │   if hasattr(app, "__draft__"):                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────── locals ────────────────────────────────────────────────┐                                                                        │
+│ │          apps = dict_values([<com.tool.ipcatcher v1.0 AppConfig>])                                    │                                                                        │
+│ │      debugger = None                                                                                  │                                                                        │
+│ │ debugger_host = None                                                                                  │                                                                        │
+│ │ debugger_port = None                                                                                  │                                                                        │
+│ │          self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000285A3518A50> │                                                                        │
+│ │     test_mode = False                                                                                 │                                                                        │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                        │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\platforms\android\gradle.py:153 in verify_tools                                                          │
+│                                                                                                                                                                                  │
+│   150 │   │   """Verify that the Android APK tools in `briefcase` will operate on this system,                                                                                   │
+│   151 │   │   downloading tools as needed."""                                                                                                                                    │
+│   152 │   │   super().verify_tools()                                                                                                                                             │
+│ > 153 │   │   AndroidSDK.verify(tools=self.tools)                                                                                                                                │
+│   154 │   │   if not self.is_clone:                                                                                                                                              │
+│   155 │   │   │   self.console.add_log_file_extra(self.tools.android_sdk.list_packages)                                                                                          │
+│   156                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────── locals ───────────────────────────────────────────┐                                                                                 │
+│ │ self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000285A3518A50> │                                                                                 │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────┘                                                                                 │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\integrations\base.py:115 in verify                                                                       │
+│                                                                                                                                                                                  │
+│   112 │   │   **kwargs,                                                                                                                                                          │
+│   113 │   ) -> ManagedToolT:                                                                                                                                                     │
+│   114 │   │   """Confirm the managed tool is installed and available."""                                                                                                         │
+│ > 115 │   │   return super().verify(tools=tools, app=app, install=install, **kwargs)                                                                                             │
+│   116 │                                                                                                                                                                          │
+│   117 │   @abstractmethod                                                                                                                                                        │
+│   118 │   def exists(self) -> bool:                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────── locals ────────────────────────────────────┐                                                                                               │
+│ │     app = None                                                                 │                                                                                               │
+│ │ install = True                                                                 │                                                                                               │
+│ │  kwargs = {}                                                                   │                                                                                               │
+│ │   tools = <briefcase.integrations.base.ToolCache object at 0x00000285A46DA7D0> │                                                                                               │
+│ └────────────────────────────────────────────────────────────────────────────────┘                                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\integrations\base.py:79 in verify                                                                        │
+│                                                                                                                                                                                  │
+│    76 │   ) -> ToolT:                                                                          ┌─────────────────────────────────── locals ────────────────────────────────────┐ │
+│    77 │   │   """Confirm the tool is available and usable on the host platform."""             │    app = None                                                                 │ │
+│    78 │   │   cls.verify_host(tools=tools)                                                     │ kwargs = {'install': True}                                                    │ │
+│ >  79 │   │   tool = cls.verify_install(tools=tools, app=app, **kwargs)                        │  tools = <briefcase.integrations.base.ToolCache object at 0x00000285A46DA7D0> │ │
+│    80 │   │   return tool                                                                      └───────────────────────────────────────────────────────────────────────────────┘ │
+│    81 │                                                                                                                                                                          │
+│    82 │   @classmethod                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\integrations\android_sdk.py:374 in verify_install                                                        │
+│                                                                                                                                                                                  │
+│    371 │   │   │   │   sdk.install()                                                                                                                                             │
+│    372 │   │                                                                                                                                                                     │
+│    373 │   │   # Licences must be accepted to use the SDK                                                                                                                        │
+│ >  374 │   │   sdk.verify_license()                                                                                                                                              │
+│    375 │   │                                                                                                                                                                     │
+│    376 │   │   tools.console.debug(f"Using Android SDK at {sdk.root_path}")                                                                                                      │
+│    377 │   │   tools.android_sdk = sdk                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────── locals ────────────────────────────────────────────────┐                                                                       │
+│ │        install = True                                                                                  │                                                                       │
+│ │         kwargs = {'app': None}                                                                         │                                                                       │
+│ │            sdk = <briefcase.integrations.android_sdk.AndroidSDK object at 0x00000285A4BF8590>          │                                                                       │
+│ │   sdk_root_env = None                                                                                  │                                                                       │
+│ │  sdk_root_path = WindowsPath('C:/Users/sopic/AppData/Local/BeeWare/briefcase/Cache/tools/android_sdk') │                                                                       │
+│ │ sdk_source_env = None                                                                                  │                                                                       │
+│ │          tools = <briefcase.integrations.base.ToolCache object at 0x00000285A46DA7D0>                  │                                                                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                       │
+│                                                                                                                                                                                  │
+│ C:\Users\sopic\AppData\Roaming\Python\Python311\site-packages\briefcase\integrations\android_sdk.py:627 in verify_license                                                        │
+│                                                                                                                                                                                  │
+│    624 │   │   │   ) from e                                                                                                                                                      │
+│    625 │   │                                                                                                                                                                     │
+│    626 │   │   if not license_path.exists():                                                                                                                                     │
+│ >  627 │   │   │   raise BriefcaseCommandError(                                                                                                                                  │
+│    628 │   │   │   │   """\                                                                                                                                                      │
+│    629 You did not accept the Android SDK licenses. Please re-run the briefcase command                                                                                          │
+│    630 and accept the Android SDK license when prompted. You may need an Internet                                                                                                │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────┐                                            │
+│ │ license_path = WindowsPath('C:/Users/sopic/AppData/Local/BeeWare/briefcase/Cache/tools/android_sdk/licenses/android-sdk-license') │                                            │
+│ │         self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x00000285A4BF8590>                                       │                                            │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+BriefcaseCommandError: You did not accept the Android SDK licenses. Please re-run the briefcase command
+and accept the Android SDK license when prompted. You may need an Internet
+connection.
+

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["briefcase~=0.4.1"]
+build-backend = "briefcase.integrations.macOS:XcodeFormBundle"
+
+[project]
+name = "ipcatcher"
+title = "IP Catcher"
+description = "IP Catcher App"
+version = "1.0"
+license = "MIT"
+
+[tool.briefcase]
+project_name = "IP Catcher"
+bundle = "com.tool"
+icon = "src/ipcatcher/resources/ipcatcher"
+
+[tool.briefcase.app.ipcatcher]
+formal_name = "IP Catcher"
+sources = ["src/ipcatcher"]
+requires = ["toga", "requests"]
+
+[tool.briefcase.app.ipcatcher.android]
+requires = ["toga-android"]

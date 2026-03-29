@@ -1,0 +1,14 @@
+{
+  "app_name": "IP_Catcher",
+  "app_id": "com.ipcatcher.app",
+  "version": "1.0",
+  "permissions": [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE",
+    "ACCESS_WIFI_STATE",
+    "READ_PHONE_STATE"
+  ],
+  "android_min": "21",
+  "android_target": "29",
+  "orientation": "portrait"
+}
